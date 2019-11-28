@@ -1,0 +1,5 @@
+handle = open("req.txt", "a")
+print("Task4 write function working!")
+handle.write("\nHello form task4.py")
+print("Task4 -- done")
+handle.close()

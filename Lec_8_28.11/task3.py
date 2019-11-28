@@ -1,0 +1,5 @@
+handle = open("req.txt", "a")
+print("Task3 write function working!")
+handle.write("\nHello form task3.py")
+input("Press Enter to exit from task3") 
+handle.close()
